@@ -1,0 +1,38 @@
+.show-res-container {
+  width: 100%;
+}
+
+.res-images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.res-image {
+  height: 150px;
+  width: 150px;
+}
+
+.res-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.res-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-sty {
+  border: 0;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
